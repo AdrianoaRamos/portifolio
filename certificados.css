@@ -1,0 +1,37 @@
+.certificados{
+    display: flex;    
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.certificados-h1{
+    font-size: 5rem;
+    text-align: center;
+    margin-top: 0px;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+.img{
+    margin: 0 auto;
+}
+
+.img img{
+    max-height: 80vh;
+    max-width: 100%;
+}
+
+.botoes{
+    margin: 0 auto;
+}
+
+.botoes button{
+    padding: 0;
+    background-color: transparent;
+    border: none;
+}

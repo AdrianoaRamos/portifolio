@@ -1,0 +1,53 @@
+.progress{
+    height: 5px;
+    background-color: #000;
+    position: relative;
+}
+
+.progress .progress-bar-html{
+   position: absolute;
+   height: 100%;
+   background-color: #ee5f23;
+   animation: progress-html-animation 4s infinite;
+}
+@keyframes progress-html-animation{
+    0% { width: 0%; }
+    100% { width: 100%}
+    
+}
+
+.progress .progress-bar-css{
+    position: absolute;
+    height: 100%;
+    background-color: #1b73ba;
+    animation: progress-css-animation 4s infinite;
+ }
+@keyframes progress-css-animation{
+    0% { width: 0%; }
+    100% { width: 100%}
+    
+}
+
+.progress .progress-bar-js{
+    position: absolute;
+    height: 100%;
+    background-color: #efd81d;
+    animation: progress-js-animation 4s infinite;
+ }
+@keyframes progress-js-animation{
+    0% { width: 0%; }
+    100% { width: 100%}
+    
+}
+
+.progress .progress-bar-git{
+    position: absolute;
+    height: 100%;
+    background-color: #e84d31;
+    animation: progress-git-animation 4s infinite;
+ }
+@keyframes progress-git-animation{
+    0% { width: 0%; }
+    100% { width: 100%}
+    
+}

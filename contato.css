@@ -1,0 +1,66 @@
+.contato{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato-h1{
+    font-size: 5rem;
+    text-align: center;
+    margin: 0%;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.contato-rapido-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+.contato-rapido{
+    display: flex; 
+    width: 100%;
+    justify-content: space-evenly;
+    font-family: 'Inter', sans-serif;
+}
+
+.formulario-contato{
+    width: 100%;
+    margin: 30px auto ;
+}
+
+.label-contato{
+    display: flex;
+    align-items: center;
+}
+.conteudo-contato{
+    font-family: 'Inter', sans-serif;
+    margin: 0 auto;
+    width: 70vw;
+}
+
+.input-contato{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+
+textarea:focus, .input-contato:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+
+.nome{
+    margin-bottom: 20px;
+}
+
+.email{
+    margin-bottom: 20px;
+}

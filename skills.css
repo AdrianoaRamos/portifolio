@@ -1,0 +1,91 @@
+.skills{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+
+.skills-h1{
+    font-size: 5rem;
+    text-align: center;
+    margin-top: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.conteiner img{
+    width: 10vh;
+    height: 10vh;
+}
+
+.conteiner div{
+    width: 200px;
+}
+
+.html{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.html img{
+    margin: 0% auto 0% auto;
+}
+
+.css{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.css img{
+    margin: 0% auto 0% auto;
+}
+
+.javas{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.javas img{
+    margin: 0% auto 0% auto;
+}
+
+.git{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.git img{
+    margin: 0% auto 0% auto;
+}
+
+.tempo{
+    font-family: 'Roboto', sans-serif;
+    margin: 0% auto 0% auto;
+}
+
+li{
+    list-style: none;
+}
+
+ul{
+    padding: 0;
+    margin: 16px 0 0 16px;
+}
+
+ul li, p{
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+}
+
+ul p{
+    font-weight: bold;
+}

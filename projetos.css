@@ -1,0 +1,51 @@
+.projetos{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projetos-h1{
+    font-size: 5rem;
+    text-align: center;
+    margin: 0%;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 60px auto 0 auto;
+    width: 100%;
+}
+
+.img-projeto{
+    margin: 0%;
+    padding: 0%;
+    max-height: 110px;
+    max-width: 100%;
+}
+
+.link-projeto{
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+}
+
+.card h4{ 
+    text-align: center;
+}
+
+.card p{
+    text-align: justify;
+}
