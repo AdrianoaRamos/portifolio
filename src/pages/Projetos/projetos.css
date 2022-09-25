@@ -1,0 +1,50 @@
+.projetos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 89vh;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 15px;
+    background-color: #ffffff28;
+    color: #ffffff;
+    height: 400px;
+}
+
+.icones-projetos{
+    display: flex;
+    align-items: center;
+}
+
+#icon{
+    font-size: 30px;
+    color: #f9e50e;
+    padding: 0px 8px 0px 0px;
+}
+
+.icones-card{
+    display: flex;
+    flex-direction: row;
+}
+
+.link-projeto{
+    display: flex;
+    margin: 0;
+    font-size: 1.3em;
+}
+
+
+.card .card-body{
+    padding: 1rem 0rem;
+}

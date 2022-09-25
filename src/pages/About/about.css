@@ -1,0 +1,19 @@
+.sobre{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 89vh;
+}
+
+.sobre img{
+    width: 35%;
+}
+
+.sobre h2{
+    width: 50%;
+    font-size: 2em;
+    font-weight: normal;
+    color: #FFFFFF;
+    text-align: center;
+}
+

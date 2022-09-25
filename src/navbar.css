@@ -1,0 +1,32 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.nav-link{
+    padding: 0;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #FFFFFF;
+    font-weight: normal;
+    margin-left: 25px;
+    letter-spacing: 3px;
+}
+
+.nav-link:focus, .nav-link:hover{
+    color: #f9e50e;
+}
+
+.navegacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo{
+    width: 2em;
+    height: 2em;
+}

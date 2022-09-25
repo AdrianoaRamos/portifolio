@@ -1,0 +1,16 @@
+.texto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 89vh;
+    width: 100%;
+    color: #f9e50e;   
+}
+
+.texto h1{
+    font-size: 5em;
+    font-weight: 700;
+    letter-spacing: 10px;
+    text-align: center;
+}
