@@ -52,10 +52,4 @@ const cards = [
     }
 ]
 
-<<<<<<< HEAD
-
-
 export default cards;
-=======
-export default cards;
->>>>>>> f2374865926b2b6fb947a291b68e1019b21815a8
