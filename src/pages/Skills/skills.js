@@ -5,9 +5,6 @@ import {    FaHtml5,
             FaGitAlt,
             FaGithubSquare
         } from "react-icons/fa";
-
-import Navegacao from "../../navbar";
-
 import './skills.css'
 
 
@@ -17,7 +14,10 @@ function Skills(){
     return(
         <div className="skill">
             <div className="conhecimentos">
+                <div className="textos">
                 <h2>Conhecimento</h2>
+                <p></p>
+                </div>
             <div className="icones">
                 < FaHtml5 className="icone"/>
                 < FaCss3Alt className="icone"/>

@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import emailjs from '@emailjs/browser';
 
 import './contato.css'
@@ -42,6 +43,10 @@ const ContactUs = () => {
                         </div>
                     </div>
                 </form>
+            </div>
+            <div className='redes'>
+            <a href='https://github.com/AdrianoaRamos' target={'blank'} ><FaGithub className='icone-contato'/></a>
+            <a href='https://www.linkedin.com/in/adriano-augusto-ramos-53b241b8/' target={'blank'}><FaLinkedin className='icone-contato'/></a>
             </div>
         </div>
     )

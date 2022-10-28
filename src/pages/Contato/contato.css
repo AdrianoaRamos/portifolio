@@ -17,3 +17,21 @@ label{
     font-size: 1.6em;
     color: #FFFFFF;
 }
+
+.redes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icone-contato{
+    width: 55px;
+    height: 55px;
+    color: #f9e50e;
+    background-color: #0000009e;
+    padding: 10px;
+}
+
+.icone-contato:hover{
+    border: 1px solid #f9e50e;
+}
