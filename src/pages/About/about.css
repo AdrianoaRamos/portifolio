@@ -18,6 +18,7 @@
 
 .textoSobre{
     display:flex;
+    flex-direction: column;
     align-itens: center;
     width: 50%;
 }
