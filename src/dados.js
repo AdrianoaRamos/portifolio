@@ -36,15 +36,6 @@ const cards = [
         terceiroIcone:"fa-brands fa-js"
     },
     {
-        title: "Taurus Company",
-        description: "Freelance Landing Page criada para a empresa Taurus Company utilizando HTML, CSS3 e JavaScript.",
-        imagem:"https://raw.githubusercontent.com/AdrianoaRamos/taurus-co/master/img/Capturar.JPG",
-        repositorio: "https://github.com/AdrianoaRamos/taurus-co",
-        primeiroIcone:"fa-brands fa-html5",
-        segundoIcone:"fa-brands fa-css3-alt",
-        terceiroIcone:"fa-brands fa-js"
-    },
-    {
         title: "Em Construção",
         description: "Pegue o café e espere um pouco, estou desenvolvendo o projeto...",
         imagem:"https://raw.githubusercontent.com/AdrianoaRamos/portifolio/master/src/img/construcao.jpg",
