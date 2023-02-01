@@ -17,6 +17,11 @@
     text-align: center;
 }
 
+.textoSobre{
+    display:"flex";
+    align-itens: center;
+}
+
 @media screen and (max-width: 900px) {
     .sobre{
         flex-wrap: wrap;
