@@ -22,6 +22,12 @@
     width: 50%;
 }
 
+.textoSobre h1{
+    
+    text-align:center;
+    
+}
+
 @media screen and (max-width: 900px) {
     .sobre{
         flex-wrap: wrap;
