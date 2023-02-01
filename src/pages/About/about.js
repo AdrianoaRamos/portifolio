@@ -7,6 +7,7 @@ function About(){
         <div className="about">
             <div className="sobre">
             <img src={foto} />
+            <h1>Algumas coisas sobre mim...</h1>
             <h2>        Fazer a diferença é o objetivo do meu trabalho! 
                         Fazer as mesmas coisas todos os dias não estão nos meus planos, 
                         por isso estou sempre atrás de conhecimentos e buscando inovações 
