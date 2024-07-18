@@ -10,7 +10,7 @@ const ContactUs = () => {
     const sendEmail = (e) => {
       e.preventDefault();
   
-      emailjs.sendForm('service_m1ft4ok', 'template_e4bpt94', form.current, '7fSE-ZKD8QGC5wgcp')
+      emailjs.sendForm('service_79pr10r', 'template_e4bpt94', form.current, '7fSE-ZKD8QGC5wgcp')
         .then((result) => {
             alert('Menssagem Enviada Com sucesso');
         }, (error) => {
